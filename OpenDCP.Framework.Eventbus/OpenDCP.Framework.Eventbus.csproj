@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Roche/dcp-pkg-be-dotnet-event-bus</RepositoryUrl>
+    <PackageProjectUrl>https://open-dcp.ai/</PackageProjectUrl>
+    <Version>0.1.0</Version>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="OpenDCP.Framework.ConfigurationProvider" Version="0.1.0" />
+		<PackageReference Include="OpenDCP.Framework.Messaging" Version="0.1.0" />
+	</ItemGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
